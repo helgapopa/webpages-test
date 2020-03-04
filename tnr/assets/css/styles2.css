@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;  
+}
+
+/* Top Bar */
+#top-bar {
+    background-color: #90957a;
+    font-family: 'Bitter', sans-serif;
+    width: 100%;
+    padding: 12px;
+    font-size: medium;
+    letter-spacing: 0.03em;
+}
+
+.top-bar-p {
+    color: white;
+    margin-top: 10px;
+}
+
+.nav-pills {
+    margin: 5px;
+}
+
+.nav-link{
+    color: #d3d3cc;
+}
+
+/* Nav Bar */
+.navbg {
+    background-color: white;
+    margin: 3% 23.5% 3% 16.5%;
+}
+
+.nav.navbar-nav.ml-auto li a {
+    color: #787977;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.collapse.navbar-collapse {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
