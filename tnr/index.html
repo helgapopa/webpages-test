@@ -10,6 +10,8 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- FontAwesome Icons -->
     <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="assets/fonts/" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="assets/css/styles.css" rel="stylesheet">
 </head>
@@ -17,38 +19,47 @@
 <body>
     <!-- HEADER
     ============================================-->
-    <nav id="navbar-example2" class="navbar navbar-dark mybg">
-        <a class="navbar-brand" href="#"><em>Call nature's hotline if you need help</em> : 1 (234) 567-8910</a>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="https://facebook.com" target="_blank" class="badge social facebook"><i
-                        class="fa fa-facebook"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://pinterest.com" target="_blank" class="badge social pinterest"><i
-                        class="fa fa-pinterest"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com" target="_blank" class="badge social twitter"><i
-                        class="fa fa-twitter"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://instagram.com" target="_blank" class="badge social instagram"><i
-                        class="fa fa-instagram"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://google.com" target="_blank" class="badge social facebook"><i
-                        class="fa fa-search"></i></a>
-            </li>
-        </ul>
-    </nav>
+    <!--Top Bar-->
+    <section id="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <p class="top-bar-p"><em>Call nature's hotline if you need help</em>: 1 (234) 567-8910</p>
+                </div><!-- col -->
+                <div class="col-sm-3">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://facebook.com" target="_blank" class="badge social facebook"><i
+                                    class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://pinterest.com" target="_blank" class="badge social pinterest"><i
+                                    class="fa fa-pinterest"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://twitter.com" target="_blank" class="badge social twitter"><i
+                                    class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://instagram.com" target="_blank" class="badge social instagram"><i
+                                    class="fa fa-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://google.com" target="_blank" class="badge social facebook"><i
+                                    class="fa fa-search"></i></a>
+                        </li>
+                    </ul>
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- top-bar -->
 
     <!-- NAVBAR
         ============================================-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark navbg">
+    <nav class="navbar navbar-expand-lg navbg">
         <a class="navbar-brand" href="#">
-            <img src="assets/img/logo.png" alt="Logo">
+            <img src="assets/img/Logo.png" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,7 +152,7 @@
 
     <!-- OUR TEAM
     ============================================-->
-    <section id="our-team">
+    <section id="our-team" class="ourteam-section" data-type="background" data-speed="5">
         <div class="container">
             <h4 class="centerh4">OUR TEAM</h4>
             <p class="lead-center"><i>The nature experts of California.</i></p>
@@ -165,11 +176,11 @@
     <section id="optin">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-9">
                     <p class="lead2">FIND YOUR PLACE AT THE NATURE RESERVE</p>
                     <p style="margin:10px 20px 50px 0;opacity: 0.5;"><i>join our team of nature loving experts</i></p>
                 </div><!-- col -->
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <button type="button" class="btn btn-primary btn-lg"
                         style="background-color:rgb(221, 127, 90);margin:50px 0 50px 50px;border:0;padding:20px 40px 20px 40px;font-size: small;font-family: cursive;">LEARN
                         MORE</button>
@@ -180,20 +191,30 @@
 
     <!-- PARTNERS
     ============================================-->
-    <div class="partners">
-        <div class="text-center" style="margin-top: 70px;">
-            <h5 style="font-weight: bold;">NOTABLE PARTNERS</h5>
-            <img src="assets/img/line.jpg">
-        </div>
-        <div class="unordered-list">
-            <ul class="list-inline">
-                <li><img src="assets/img/1.jpg"></li>
-                <li><img src="assets/img/2.jpg"></li>
-                <li><img src="assets/img/3.jpg"></li>
-                <li><img src="assets/img/4.jpg"></li>
-            </ul>
-        </div>
-    </div><!-- partners -->
+    <section id="partners" class="partners">
+        <div class="container">
+            <div class="notable-partners">
+                <div class="text-center" style="margin-top: 70px; margin-bottom: 6%;">
+                    <h5 style="font-weight: bold;">NOTABLE PARTNERS</h5>
+                    <img src="assets/img/line.jpg">
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="assets/img/1.jpg">
+                    </div><!-- end col -->
+                    <div class="col-sm-3">
+                        <img src="assets/img/2.jpg">
+                    </div><!-- end col -->
+                    <div class="col-sm-3">
+                        <img src="assets/img/3.jpg">
+                    </div><!-- end col -->
+                    <div class="col-sm-3">
+                        <img src="assets/img/4.jpg">
+                    </div><!-- end col -->
+                </div><!-- row -->
+            </div><!-- partners -->
+        </div><!-- container -->
+    </section><!-- section -->
 
     <!-- SHOP PRODUCTS
     ============================================-->
@@ -240,13 +261,13 @@
     <footer>
         <div class="footer">
             <ul class="footer-list">
-                <li class="footer-list-item"><a href="http://facebook.com"><i
+                <li class="footer-list-item"><a href="http://facebook.com" target="_blank"><i
                             class="fa fa-facebook fa-md mr-sm-4 mr-2 fa-mycustomx"></i></a></li>
-                <li class="footer-list-item"><a href="http://pinterest.com"><i
+                <li class="footer-list-item"><a href="http://pinterest.com" target="_blank"><i
                             class="fa fa-pinterest fa-md mr-sm-4 mr-2 fa-mycustomx"></i></a></li>
-                <li class="footer-list-item"><a href="http://twitter.com"><i
+                <li class="footer-list-item"><a href="http://twitter.com" target="_blank"><i
                             class="fa fa-twitter fa-md mr-sm-4 mr-2 fa-mycustomx"></i></a></li>
-                <li class="footer-list-item"><a href="http://instagram.com"><i
+                <li class="footer-list-item"><a href="http://instagram.com" target="_blank"><i
                             class="fa fa-instagram fa-md mr-sm-4 mr-2 fa-mycustomx"></i></a></li>
             </ul>
         </div>
@@ -254,7 +275,7 @@
         <hr>
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3" style="color:rgb(105, 103, 102);opacity: 0.5;font-weight: bold;">
+        <div class="footer-copyright text-center py-3" style="color:rgb(105, 103, 102);opacity: 0.5;font-weight: bold; margin-bottom: 1.6%;">
             <i>Copyright 2016, Nature Reserve. Powered by WordPress</i>
         </div>
         <!-- Copyright -->
